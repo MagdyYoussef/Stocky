@@ -1,0 +1,43 @@
+﻿Build started 9/5/2016 2:12:07 AM.
+     1>Project "D:\Final\StockExchange\CasablancaLib\CasablancaLib.vcxproj" on node 3 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (..\bin\Server\) contains files shared from another project (StockExchangeServer.vcxproj, StockExchangeServerTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\CasablancaRelease64\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\bin\Server\\" /Fd"..\bin\Server\vc120.pdb" /Gd /TP /errorReport:prompt CasablacaServer.cpp DatabaseADO.cpp SHA1.cpp
+         CasablacaServer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2045): warning C4244: '=' : conversion from 'const wchar_t' to 'char', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2066) : see reference to function template instantiation '_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_Nonscalar_ptr_iterator_tag)' being compiled
+                 with
+                 [
+                     _OutIt=char *
+         ,            _InIt=const wchar_t *
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2077) : see reference to function template instantiation '_OutIt std::_Copy_impl<const wchar_t*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *
+         ,            _InIt=const wchar_t *
+                 ]
+                 CasablacaServer.cpp(17) : see reference to function template instantiation '_OutIt std::copy<std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+         ,            _InIt=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+         DatabaseADO.cpp
+     1>DatabaseADO.cpp(40): warning C4800: 'VARIANT_BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>DatabaseADO.cpp(53): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+         SHA1.cpp
+     1>SHA1.cpp(50): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>SHA1.cpp(73): warning C4309: 'argument' : truncation of constant value
+     1>SHA1.cpp(74): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>SHA1.cpp(93): warning C4244: '=' : conversion from 'SHA1::uint64' to 'SHA1::uint32', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\bin\Server\CasablancaLib.lib" /NOLOGO /MACHINE:X64 /LTCG ..\bin\Server\CasablacaServer.obj
+         ..\bin\Server\DatabaseADO.obj
+         ..\bin\Server\SHA1.obj
+         CasablancaLib.vcxproj -> D:\Final\StockExchange\CasablancaLib\..\bin\Server\CasablancaLib.lib
+     1>Done Building Project "D:\Final\StockExchange\CasablancaLib\CasablancaLib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.67

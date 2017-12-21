@@ -1,0 +1,28 @@
+﻿Build started 10/10/2016 11:49:43 AM.
+     1>Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\StockExchangeServerTest\StockExchangeServerTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\StockExchangeServerTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\StockExchangeServerTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LoginTest.cpp QuoteTest.cpp RegisterTest.cpp PortfolioTest.cpp BuyTest.cpp SellTest.cpp TransactionsTest.cpp RequestValidationTest.cpp
+         RequestValidationTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\requestvalidationtest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         TransactionsTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\transactionstest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         SellTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\selltest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         BuyTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\buytest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         PortfolioTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\portfoliotest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         RegisterTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\registertest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         QuoteTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\quotetest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         LoginTest.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeservertest\logintest.cpp(4): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\StockExchangeServerTest\StockExchangeServerTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.05

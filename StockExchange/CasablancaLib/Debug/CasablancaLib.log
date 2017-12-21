@@ -1,0 +1,71 @@
+﻿Build started 10/10/2016 11:49:39 AM.
+     1>Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\CasablancaLib\CasablancaLib.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BadRequestException.h CasablacaServer.cpp DatabaseADO.cpp SHA1.cpp
+         SHA1.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\sha1.cpp(73): warning C4309: 'argument' : truncation of constant value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\sha1.cpp(93): warning C4244: '=' : conversion from 'SHA1::uint64' to 'SHA1::uint32', possible loss of data
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\sha1.cpp(262): warning C4244: 'argument' : conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+         DatabaseADO.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\utility.h(40): warning C4091: 'static ' : ignored on left of 'Utility' when no variable is declared
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(74): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(218): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(234): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(251): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(270): warning C4800: 'VARIANT_BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(288): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(324): warning C4800: 'INT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2045): warning C4244: '=' : conversion from 'const wchar_t' to 'char', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2066) : see reference to function template instantiation '_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_Nonscalar_ptr_iterator_tag)' being compiled
+                 with
+                 [
+                     _OutIt=char *
+         ,            _InIt=const wchar_t *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2097) : see reference to function template instantiation '_OutIt std::_Copy_impl<_InIt,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *
+         ,            _InIt=const wchar_t *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2107) : see reference to function template instantiation '_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::random_access_iterator_tag,std::random_access_iterator_tag)' being compiled
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+         ,            _InIt=const wchar_t *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2132) : see reference to function template instantiation '_OutIt std::_Copy_impl<const wchar_t*,_OutIt>(_InIt,_InIt,_OutIt,std::true_type)' being compiled
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+         ,            _InIt=const wchar_t *
+                 ]
+                 d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\utility.h(34) : see reference to function template instantiation '_OutIt std::copy<std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+         ,            _InIt=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+         CasablacaServer.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\utility.h(40): warning C4091: 'static ' : ignored on left of 'Utility' when no variable is declared
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\casablacaserver.h(3): fatal error C1083: Cannot open include file: 'cpprest/http_listener.h': No such file or directory
+         BadRequestException.h
+         Generating Code...
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(64): warning C4715: 'DatabaseADO::UsernameExists' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(126): warning C4715: 'DatabaseADO::VerifyUserLogin' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(184): warning C4715: 'DatabaseADO::GetTransactions' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(208): warning C4715: 'DatabaseADO::GetTraderBalance' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(224): warning C4715: 'DatabaseADO::SetTraderBalance' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(240): warning C4715: 'DatabaseADO::SetStockPrice' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(257): warning C4715: 'DatabaseADO::AddToPortfolio' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(278): warning C4715: 'DatabaseADO::StockExists' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(294): warning C4715: 'DatabaseADO::AddTransaction' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(314): warning C4715: 'DatabaseADO::GetStockQuantity' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(330): warning C4715: 'DatabaseADO::RemoveFromPortfolio' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(105): warning C4715: 'DatabaseADO::GetStockPrice' : not all control paths return a value
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\casablancalib\databaseado.cpp(155): warning C4715: 'DatabaseADO::GetPortfolio' : not all control paths return a value
+     1>Done Building Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\CasablancaLib\CasablancaLib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.99

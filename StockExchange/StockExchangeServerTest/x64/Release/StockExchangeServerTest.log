@@ -1,0 +1,26 @@
+﻿Build started 9/4/2016 9:09:12 PM.
+     1>Project "D:\Final\StockExchangeApp\StockExchangeServerTest\StockExchangeServerTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /I..\CasablancaRelease64\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\StockExchangeServerTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /I..\CasablancaRelease64\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\StockExchangeServerTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" /LIBPATH:..\CasablancaRelease64\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.lib" /MACHINE:X64 /DLL x64\Release\stdafx.obj
+         x64\Release\unittest1.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.lib and object D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.exp
+     1>unittest1.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl web::http::details::http_msg_base::extract_string(bool)" (__imp_?extract_string@http_msg_base@details@http@web@@QEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_N@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl web::http::details::http_msg_base::extract_utf8string(bool)" (__imp_?extract_utf8string@http_msg_base@details@http@web@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl web::http::details::http_msg_base::extract_utf16string(bool)" (__imp_?extract_utf16string@http_msg_base@details@http@web@@QEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_N@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class web::json::value __cdecl web::http::details::http_msg_base::_extract_json(bool)" (__imp_?_extract_json@http_msg_base@details@http@web@@QEAA?AVvalue@json@4@_N@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl web::http::details::http_msg_base::_extract_vector(void)" (__imp_?_extract_vector@http_msg_base@details@http@web@@QEAA?AV?$vector@EV?$allocator@E@std@@@std@@XZ)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "public: __cdecl CasablancaServer::CasablancaServer(void)" (??0CasablancaServer@@QEAA@XZ)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "public: __cdecl CasablancaServer::~CasablancaServer(void)" (??1CasablancaServer@@QEAA@XZ)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "public: bool __cdecl CasablancaServer::Sell(void)" (?Sell@CasablancaServer@@QEAA_NXZ)
+     1>D:\Final\StockExchangeApp\x64\Release\StockExchangeServerTest.dll : fatal error LNK1120: 8 unresolved externals
+     1>Done Building Project "D:\Final\StockExchangeApp\StockExchangeServerTest\StockExchangeServerTest.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.35

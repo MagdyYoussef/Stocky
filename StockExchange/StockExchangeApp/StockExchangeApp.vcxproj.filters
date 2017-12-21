@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="RestClient.cpp">
+      <Filter>src\RestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="WtApp.h">
+      <Filter>src\WtApp</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src\WtApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f5b7eb5a-f341-4647-9ed0-44f83df39aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\RestClient">
+      <UniqueIdentifier>{2008e507-2660-4e89-8ffc-180afdbaad5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\WtApp">
+      <UniqueIdentifier>{810028db-503a-4f44-80d4-e5b38a8927bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RestClient.h">
+      <Filter>src\RestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

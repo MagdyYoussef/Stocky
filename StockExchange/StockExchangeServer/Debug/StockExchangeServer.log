@@ -1,0 +1,11 @@
+﻿Build started 10/10/2016 11:49:43 AM.
+     1>Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\StockExchangeServer\StockExchangeServer.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\etc\crossover\magdymedhat_cppassignment3\source\stockexchange\stockexchangeserver\main.cpp(2): fatal error C1083: Cannot open include file: 'Utility.h': No such file or directory
+     1>Done Building Project "D:\Etc\crossover\MagdyMedhat_CppAssignment3\Source\StockExchange\StockExchangeServer\StockExchangeServer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
